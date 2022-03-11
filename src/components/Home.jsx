@@ -44,7 +44,7 @@ export const Home = () => {
 
   return (
     <>
-      {data.length === 0 ? (
+      {!data ? (
         <h2>No Blogs To Show</h2>
       ) : (
         <div className="container">
